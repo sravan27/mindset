@@ -1,0 +1,67 @@
+# Data Processing
+duckdb>=0.8.1
+dask>=2023.5.0
+pyarrow>=12.0.0
+pandas>=2.0.0
+numpy>=1.24.0
+polars>=0.19.3
+fsspec>=2023.6.0
+
+# ML & NLP
+torch>=2.0.0
+transformers>=4.30.0
+scikit-learn>=1.2.2
+xgboost>=1.7.5
+lightgbm>=4.0.0
+shap>=0.42.0
+lime>=0.2.0
+spacy>=3.6.0
+nltk>=3.8.1
+huggingface-hub>=0.16.4
+sentence-transformers>=2.2.2
+tensorflow>=2.13.0
+
+# Online Learning & Advanced ML
+river>=0.15.0
+alibi-detect>=0.10.0
+alibi>=0.9.0
+mab>=0.1.24  # Using latest available version
+feast>=0.30.0
+
+# Rust Integration
+maturin>=1.0.0
+numpy>=1.24.0
+
+# AWS Cloud & Infrastructure
+boto3>=1.28.38
+awscli>=1.29.38
+sagemaker>=2.175.0
+s3fs>=2023.6.0
+
+# API & Web
+fastapi>=0.100.0
+uvicorn>=0.23.0
+requests>=2.31.0
+newsapi-python>=0.2.7
+pydantic>=2.0.0
+starlette>=0.27.0
+opentelemetry-api>=1.18.0
+opentelemetry-sdk>=1.18.0
+opentelemetry-exporter-otlp>=1.18.0
+
+# Security
+python-jose>=3.3.0
+passlib>=1.7.4
+python-multipart>=0.0.6
+bcrypt>=4.0.1
+
+# Misc
+python-dotenv>=1.0.0
+tqdm>=4.65.0
+pytest>=7.4.0
+black>=23.7.0
+isort>=5.12.0
+mypy>=1.4.1
+pytest-cov>=4.1.0
+pre-commit>=3.3.3
+httpx>=0.24.1
