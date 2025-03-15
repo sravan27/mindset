@@ -1,0 +1,231 @@
+.article-detail-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 2rem 1.5rem;
+}
+
+.back-link {
+  display: inline-block;
+  color: #4a5568;
+  text-decoration: none;
+  margin-bottom: 1rem;
+  font-size: 0.875rem;
+  transition: color 0.3s ease;
+}
+
+.back-link:hover {
+  color: #2b6cb0;
+}
+
+.article-header {
+  margin-bottom: 2rem;
+}
+
+.article-title {
+  font-family: 'Playfair Display', serif;
+  font-size: 2.25rem;
+  color: #1a202c;
+  margin-bottom: 1rem;
+  line-height: 1.2;
+}
+
+.article-meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  font-size: 0.875rem;
+  color: #718096;
+}
+
+.source {
+  font-weight: 600;
+}
+
+.category {
+  background-color: #e2e8f0;
+  padding: 0.25rem 0.5rem;
+  border-radius: 9999px;
+  font-weight: 500;
+}
+
+.article-image {
+  margin: 2rem 0;
+  border-radius: 0.5rem;
+  overflow: hidden;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.article-image img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.metrics-container {
+  background-color: #f8fafc;
+  border-radius: 0.5rem;
+  padding: 1.5rem;
+  margin-bottom: 2rem;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+.metrics-title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 1.25rem;
+  color: #2d3748;
+  margin-bottom: 1rem;
+}
+
+.info-button {
+  background: none;
+  border: 1px solid #cbd5e0;
+  border-radius: 0.25rem;
+  padding: 0.25rem 0.5rem;
+  font-size: 0.75rem;
+  color: #4a5568;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.info-button:hover {
+  background-color: #edf2f7;
+  color: #2b6cb0;
+}
+
+.metrics-explanation {
+  background-color: #edf2f7;
+  border-radius: 0.25rem;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  font-size: 0.875rem;
+  color: #4a5568;
+}
+
+.metrics-explanation p {
+  margin-bottom: 0.5rem;
+}
+
+.metrics-explanation p:last-child {
+  margin-bottom: 0;
+}
+
+.metrics-display {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.metric {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.metric-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.metric-name {
+  font-weight: 600;
+  color: #2d3748;
+}
+
+.metric-value {
+  font-weight: 600;
+  color: #2d3748;
+}
+
+.meter {
+  height: 0.5rem;
+  background-color: #e2e8f0;
+  border-radius: 9999px;
+  overflow: hidden;
+}
+
+.meter-fill {
+  height: 100%;
+  border-radius: 9999px;
+  transition: width 0.5s ease-out;
+}
+
+.depth-badge {
+  font-weight: 600;
+  padding: 0.25rem 0.5rem;
+  border-radius: 9999px;
+  font-size: 0.75rem;
+  color: white;
+}
+
+.depth-low {
+  background-color: #f6ad55; /* Orange */
+}
+
+.depth-medium {
+  background-color: #4299e1; /* Blue */
+}
+
+.depth-high {
+  background-color: #48bb78; /* Green */
+}
+
+.article-content {
+  color: #2d3748;
+  line-height: 1.7;
+}
+
+.article-abstract {
+  font-weight: 600;
+  font-size: 1.125rem;
+  color: #1a202c;
+  margin-bottom: 2rem;
+  line-height: 1.6;
+}
+
+.article-body {
+  margin-bottom: 2rem;
+}
+
+.article-body p {
+  margin-bottom: 1.5rem;
+}
+
+.article-source-link {
+  margin-top: 2rem;
+  padding-top: 1rem;
+  border-top: 1px solid #e2e8f0;
+  text-align: center;
+}
+
+.article-source-link a {
+  display: inline-block;
+  color: #3182ce;
+  text-decoration: none;
+  font-weight: 500;
+  padding: 0.5rem 1rem;
+  border: 1px solid #3182ce;
+  border-radius: 0.25rem;
+  transition: all 0.3s ease;
+}
+
+.article-source-link a:hover {
+  background-color: #3182ce;
+  color: white;
+}
+
+@media (max-width: 768px) {
+  .article-title {
+    font-size: 1.75rem;
+  }
+  
+  .metrics-title {
+    font-size: 1.125rem;
+  }
+  
+  .article-abstract {
+    font-size: 1rem;
+  }
+}
