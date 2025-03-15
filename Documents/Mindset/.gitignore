@@ -6,6 +6,10 @@ MINDlarge_train/
 # Log files
 *.log
 
+# Node modules
+node_modules/
+.next/
+
 # Data directories (keep directory structure but ignore large files)
 data/raw/**/
 !data/raw/**/.gitkeep
